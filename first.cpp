@@ -2,12 +2,11 @@
 #include <cstdint> 
 
 int main() {
-    uint64_t x = 64;
-    
-    int64_t signedX = static_cast<int64_t>(x);
+    int64_t x = 64;
 
     std::cout << "Address of x: " << &x << std::endl;
-    std::cout << "Working! Signed x: " << signedX;
+    std::cout << "Working! Signed x: " << x <<std::endl;
+    std::cout << "test2" <<std::endl;
 
     return 0;
 }
