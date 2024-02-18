@@ -1,0 +1,2 @@
+C:/Users/rosly/Documents/vscode/cpp-learning/build/CMakeFiles/edit_cache.dir
+C:/Users/rosly/Documents/vscode/cpp-learning/build/CMakeFiles/rebuild_cache.dir
