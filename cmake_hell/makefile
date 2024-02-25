@@ -1,2 +1,2 @@
 default: 
-g++ main.cpp -out 
+	g++ main.cpp -out 
