@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Project
+CMAKE_PROJECT_NAME:STATIC=GOD_MACHINE
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -214,6 +214,24 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+GOD_BINARY_DIR:STATIC=/mnt/c/Users/rosly/Documents/vscode/cpp-learning/cmake_hell/out/build
+
+//Value Computed by CMake
+GOD_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+GOD_MACHINE_BINARY_DIR:STATIC=/mnt/c/Users/rosly/Documents/vscode/cpp-learning/cmake_hell/out/build
+
+//Value Computed by CMake
+GOD_MACHINE_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+GOD_MACHINE_SOURCE_DIR:STATIC=/mnt/c/Users/rosly/Documents/vscode/cpp-learning/cmake_hell
+
+//Value Computed by CMake
+GOD_SOURCE_DIR:STATIC=/mnt/c/Users/rosly/Documents/vscode/cpp-learning/cmake_hell
 
 //Value Computed by CMake
 Project_BINARY_DIR:STATIC=/mnt/c/Users/rosly/Documents/vscode/cpp-learning/cmake_hell/out/build

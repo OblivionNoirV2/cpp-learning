@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/GOD_MACHINE.dir/main.cpp.o -o GOD_MACHINE 

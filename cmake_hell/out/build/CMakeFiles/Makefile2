@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /mnt/c/Users/rosly/Documents/vscode/cpp-learning/cmake_hell/o
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/GOD_MACHINE.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,8 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean:
+clean: CMakeFiles/GOD_MACHINE.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/GOD_MACHINE.dir
+
+# All Build rule for target.
+CMakeFiles/GOD_MACHINE.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GOD_MACHINE.dir/build.make CMakeFiles/GOD_MACHINE.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GOD_MACHINE.dir/build.make CMakeFiles/GOD_MACHINE.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/rosly/Documents/vscode/cpp-learning/cmake_hell/out/build/CMakeFiles --progress-num=1,2 "Built target GOD_MACHINE"
+.PHONY : CMakeFiles/GOD_MACHINE.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/GOD_MACHINE.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/rosly/Documents/vscode/cpp-learning/cmake_hell/out/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/GOD_MACHINE.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/rosly/Documents/vscode/cpp-learning/cmake_hell/out/build/CMakeFiles 0
+.PHONY : CMakeFiles/GOD_MACHINE.dir/rule
+
+# Convenience name for target.
+GOD_MACHINE: CMakeFiles/GOD_MACHINE.dir/rule
+.PHONY : GOD_MACHINE
+
+# clean rule for target.
+CMakeFiles/GOD_MACHINE.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GOD_MACHINE.dir/build.make CMakeFiles/GOD_MACHINE.dir/clean
+.PHONY : CMakeFiles/GOD_MACHINE.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

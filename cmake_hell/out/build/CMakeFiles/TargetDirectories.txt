@@ -1,2 +1,3 @@
+/mnt/c/Users/rosly/Documents/vscode/cpp-learning/cmake_hell/out/build/CMakeFiles/GOD_MACHINE.dir
 /mnt/c/Users/rosly/Documents/vscode/cpp-learning/cmake_hell/out/build/CMakeFiles/edit_cache.dir
 /mnt/c/Users/rosly/Documents/vscode/cpp-learning/cmake_hell/out/build/CMakeFiles/rebuild_cache.dir
